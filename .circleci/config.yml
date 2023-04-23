@@ -9,8 +9,8 @@ jobs:
 
       - checkout
       - run: make deps
-      - run: make test
       - run: make lint
+      - run: make test
 
 workflows:
   basic:
